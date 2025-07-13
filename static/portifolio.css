@@ -88,6 +88,11 @@ p {
   margin: 4px 0px; 
   padding: 6px;
   font-size: 18px;
+  transition: 0.25s ease-in-out;
+}
+
+.btn_navtop:hover{
+  color: #f6aa81;
 }
 
 .foco {
@@ -717,6 +722,7 @@ mark{
   animation-fill-mode: forwards;
   background-color: #c0091e;
   position: relative;
+  transition: 0.25s ease-in-out;
 }
 
 .btn_textos_d{
@@ -734,11 +740,22 @@ mark{
   animation-fill-mode: forwards;
   background-color: #c0091e;
   position: relative;
+  transition: 0.25s ease-in-out;
+}
+
+.btn_textos:hover, .btn_textos_d:hover{
+  background-color: #FFEDCF;
+  color: #c0091e;
 }
 
 .btn_bege {
   background-color: #FFEDCF;
   color: #c0091e;
+}
+
+.btn_bege:hover {
+  background-color: #c0091e;
+  color: #FFEDCF;
 }
 
 .secp1 {
