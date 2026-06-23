@@ -113,10 +113,21 @@ p {
   margin-top: 0px;
   display: flex;
   justify-content: space-evenly;
-  z-index: 2;
+  z-index: 3;
 }
 
 .sec2 {
+  background-color: #ffccb0;
+  height: 700px;
+  border-radius: 0px 0px 72px 72px;
+  z-index: 2;
+  padding: 30px 0px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sec2-2 {
   background-color: #ff9c7d;
   height: 700px;
   border-radius: 0px 0px 72px 72px;
@@ -562,8 +573,12 @@ mark{
 
 .sites-portif-web{
   width: 490px;
-  height: 85px;
+  height: 120px;
   margin: 10px;
+  border: none;
+  text-align: left;
+  background-color: #00000000;
+  cursor: pointer;
 }
 
 .logo-portif-web{
